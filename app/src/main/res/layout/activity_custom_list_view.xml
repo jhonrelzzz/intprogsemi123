@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/simple_list_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPLE LIST VIEW"/>
+
+    <Button
+        android:id="@+id/recycler_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RECYCLER VIEW"/>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="ADD ITEM"/>
+
+    <Button
+        android:id="@+id/remove_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="REMOVE ITEM"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
